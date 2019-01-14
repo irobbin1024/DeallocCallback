@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1289AF421ECDD60000F0027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1289AF321ECDD60000F0027 /* AppDelegate.m */; };
+		D1289AF721ECDD60000F0027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1289AF621ECDD60000F0027 /* ViewController.m */; };
+		D1289AFA21ECDD60000F0027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1289AF821ECDD60000F0027 /* Main.storyboard */; };
+		D1289AFC21ECDD61000F0027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1289AFB21ECDD61000F0027 /* Assets.xcassets */; };
+		D1289AFF21ECDD61000F0027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1289AFD21ECDD61000F0027 /* LaunchScreen.storyboard */; };
+		D1289B0221ECDD61000F0027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1289B0121ECDD61000F0027 /* main.m */; };
+		D1289B0C21ECDD62000F0027 /* DeallocCallbackDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1289B0B21ECDD62000F0027 /* DeallocCallbackDemoTests.m */; };
+		D1289B1721ECDD62000F0027 /* DeallocCallbackDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1289B1621ECDD62000F0027 /* DeallocCallbackDemoUITests.m */; };
+		D1289B2721ECDDA4000F0027 /* NSObject+DeallocCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = D1289B2621ECDDA4000F0027 /* NSObject+DeallocCallback.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1289B0821ECDD62000F0027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1289AE721ECDD5F000F0027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1289AEE21ECDD5F000F0027;
+			remoteInfo = DeallocCallbackDemo;
+		};
+		D1289B1321ECDD62000F0027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1289AE721ECDD5F000F0027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1289AEE21ECDD5F000F0027;
+			remoteInfo = DeallocCallbackDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1289AEF21ECDD60000F0027 /* DeallocCallbackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeallocCallbackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1289AF221ECDD60000F0027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1289AF321ECDD60000F0027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1289AF521ECDD60000F0027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1289AF621ECDD60000F0027 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1289AF921ECDD60000F0027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1289AFB21ECDD61000F0027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1289AFE21ECDD61000F0027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1289B0021ECDD61000F0027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1289B0121ECDD61000F0027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1289B0721ECDD62000F0027 /* DeallocCallbackDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeallocCallbackDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1289B0B21ECDD62000F0027 /* DeallocCallbackDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeallocCallbackDemoTests.m; sourceTree = "<group>"; };
+		D1289B0D21ECDD62000F0027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1289B1221ECDD62000F0027 /* DeallocCallbackDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeallocCallbackDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1289B1621ECDD62000F0027 /* DeallocCallbackDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeallocCallbackDemoUITests.m; sourceTree = "<group>"; };
+		D1289B1821ECDD62000F0027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1289B2521ECDDA4000F0027 /* NSObject+DeallocCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocCallback.h"; sourceTree = "<group>"; };
+		D1289B2621ECDDA4000F0027 /* NSObject+DeallocCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocCallback.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1289AEC21ECDD5F000F0027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1289B0421ECDD62000F0027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1289B0F21ECDD62000F0027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1289AE621ECDD5F000F0027 = {
+			isa = PBXGroup;
+			children = (
+				D1289AF121ECDD60000F0027 /* DeallocCallbackDemo */,
+				D1289B0A21ECDD62000F0027 /* DeallocCallbackDemoTests */,
+				D1289B1521ECDD62000F0027 /* DeallocCallbackDemoUITests */,
+				D1289AF021ECDD60000F0027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1289AF021ECDD60000F0027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1289AEF21ECDD60000F0027 /* DeallocCallbackDemo.app */,
+				D1289B0721ECDD62000F0027 /* DeallocCallbackDemoTests.xctest */,
+				D1289B1221ECDD62000F0027 /* DeallocCallbackDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1289AF121ECDD60000F0027 /* DeallocCallbackDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1289B2421ECDDA4000F0027 /* DeallocCallback */,
+				D1289AF221ECDD60000F0027 /* AppDelegate.h */,
+				D1289AF321ECDD60000F0027 /* AppDelegate.m */,
+				D1289AF521ECDD60000F0027 /* ViewController.h */,
+				D1289AF621ECDD60000F0027 /* ViewController.m */,
+				D1289AF821ECDD60000F0027 /* Main.storyboard */,
+				D1289AFB21ECDD61000F0027 /* Assets.xcassets */,
+				D1289AFD21ECDD61000F0027 /* LaunchScreen.storyboard */,
+				D1289B0021ECDD61000F0027 /* Info.plist */,
+				D1289B0121ECDD61000F0027 /* main.m */,
+			);
+			path = DeallocCallbackDemo;
+			sourceTree = "<group>";
+		};
+		D1289B0A21ECDD62000F0027 /* DeallocCallbackDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1289B0B21ECDD62000F0027 /* DeallocCallbackDemoTests.m */,
+				D1289B0D21ECDD62000F0027 /* Info.plist */,
+			);
+			path = DeallocCallbackDemoTests;
+			sourceTree = "<group>";
+		};
+		D1289B1521ECDD62000F0027 /* DeallocCallbackDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1289B1621ECDD62000F0027 /* DeallocCallbackDemoUITests.m */,
+				D1289B1821ECDD62000F0027 /* Info.plist */,
+			);
+			path = DeallocCallbackDemoUITests;
+			sourceTree = "<group>";
+		};
+		D1289B2421ECDDA4000F0027 /* DeallocCallback */ = {
+			isa = PBXGroup;
+			children = (
+				D1289B2521ECDDA4000F0027 /* NSObject+DeallocCallback.h */,
+				D1289B2621ECDDA4000F0027 /* NSObject+DeallocCallback.m */,
+			);
+			name = DeallocCallback;
+			path = ../../DeallocCallback;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1289AEE21ECDD5F000F0027 /* DeallocCallbackDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1289B1B21ECDD62000F0027 /* Build configuration list for PBXNativeTarget "DeallocCallbackDemo" */;
+			buildPhases = (
+				D1289AEB21ECDD5F000F0027 /* Sources */,
+				D1289AEC21ECDD5F000F0027 /* Frameworks */,
+				D1289AED21ECDD5F000F0027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeallocCallbackDemo;
+			productName = DeallocCallbackDemo;
+			productReference = D1289AEF21ECDD60000F0027 /* DeallocCallbackDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1289B0621ECDD62000F0027 /* DeallocCallbackDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1289B1E21ECDD62000F0027 /* Build configuration list for PBXNativeTarget "DeallocCallbackDemoTests" */;
+			buildPhases = (
+				D1289B0321ECDD62000F0027 /* Sources */,
+				D1289B0421ECDD62000F0027 /* Frameworks */,
+				D1289B0521ECDD62000F0027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1289B0921ECDD62000F0027 /* PBXTargetDependency */,
+			);
+			name = DeallocCallbackDemoTests;
+			productName = DeallocCallbackDemoTests;
+			productReference = D1289B0721ECDD62000F0027 /* DeallocCallbackDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1289B1121ECDD62000F0027 /* DeallocCallbackDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1289B2121ECDD62000F0027 /* Build configuration list for PBXNativeTarget "DeallocCallbackDemoUITests" */;
+			buildPhases = (
+				D1289B0E21ECDD62000F0027 /* Sources */,
+				D1289B0F21ECDD62000F0027 /* Frameworks */,
+				D1289B1021ECDD62000F0027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1289B1421ECDD62000F0027 /* PBXTargetDependency */,
+			);
+			name = DeallocCallbackDemoUITests;
+			productName = DeallocCallbackDemoUITests;
+			productReference = D1289B1221ECDD62000F0027 /* DeallocCallbackDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1289AE721ECDD5F000F0027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = irobbin.me;
+				TargetAttributes = {
+					D1289AEE21ECDD5F000F0027 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D1289B0621ECDD62000F0027 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D1289AEE21ECDD5F000F0027;
+					};
+					D1289B1121ECDD62000F0027 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D1289AEE21ECDD5F000F0027;
+					};
+				};
+			};
+			buildConfigurationList = D1289AEA21ECDD5F000F0027 /* Build configuration list for PBXProject "DeallocCallbackDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1289AE621ECDD5F000F0027;
+			productRefGroup = D1289AF021ECDD60000F0027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1289AEE21ECDD5F000F0027 /* DeallocCallbackDemo */,
+				D1289B0621ECDD62000F0027 /* DeallocCallbackDemoTests */,
+				D1289B1121ECDD62000F0027 /* DeallocCallbackDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1289AED21ECDD5F000F0027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1289AFF21ECDD61000F0027 /* LaunchScreen.storyboard in Resources */,
+				D1289AFC21ECDD61000F0027 /* Assets.xcassets in Resources */,
+				D1289AFA21ECDD60000F0027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1289B0521ECDD62000F0027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1289B1021ECDD62000F0027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1289AEB21ECDD5F000F0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1289AF721ECDD60000F0027 /* ViewController.m in Sources */,
+				D1289B2721ECDDA4000F0027 /* NSObject+DeallocCallback.m in Sources */,
+				D1289B0221ECDD61000F0027 /* main.m in Sources */,
+				D1289AF421ECDD60000F0027 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1289B0321ECDD62000F0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1289B0C21ECDD62000F0027 /* DeallocCallbackDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1289B0E21ECDD62000F0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1289B1721ECDD62000F0027 /* DeallocCallbackDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1289B0921ECDD62000F0027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1289AEE21ECDD5F000F0027 /* DeallocCallbackDemo */;
+			targetProxy = D1289B0821ECDD62000F0027 /* PBXContainerItemProxy */;
+		};
+		D1289B1421ECDD62000F0027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1289AEE21ECDD5F000F0027 /* DeallocCallbackDemo */;
+			targetProxy = D1289B1321ECDD62000F0027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1289AF821ECDD60000F0027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1289AF921ECDD60000F0027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1289AFD21ECDD61000F0027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1289AFE21ECDD61000F0027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1289B1921ECDD62000F0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1289B1A21ECDD62000F0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1289B1C21ECDD62000F0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZE2KM4Q755;
+				INFOPLIST_FILE = DeallocCallbackDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irobbin.DeallocCallbackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1289B1D21ECDD62000F0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZE2KM4Q755;
+				INFOPLIST_FILE = DeallocCallbackDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irobbin.DeallocCallbackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1289B1F21ECDD62000F0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZE2KM4Q755;
+				INFOPLIST_FILE = DeallocCallbackDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irobbin.DeallocCallbackDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeallocCallbackDemo.app/DeallocCallbackDemo";
+			};
+			name = Debug;
+		};
+		D1289B2021ECDD62000F0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZE2KM4Q755;
+				INFOPLIST_FILE = DeallocCallbackDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irobbin.DeallocCallbackDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeallocCallbackDemo.app/DeallocCallbackDemo";
+			};
+			name = Release;
+		};
+		D1289B2221ECDD62000F0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZE2KM4Q755;
+				INFOPLIST_FILE = DeallocCallbackDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irobbin.DeallocCallbackDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeallocCallbackDemo;
+			};
+			name = Debug;
+		};
+		D1289B2321ECDD62000F0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZE2KM4Q755;
+				INFOPLIST_FILE = DeallocCallbackDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irobbin.DeallocCallbackDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeallocCallbackDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1289AEA21ECDD5F000F0027 /* Build configuration list for PBXProject "DeallocCallbackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1289B1921ECDD62000F0027 /* Debug */,
+				D1289B1A21ECDD62000F0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1289B1B21ECDD62000F0027 /* Build configuration list for PBXNativeTarget "DeallocCallbackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1289B1C21ECDD62000F0027 /* Debug */,
+				D1289B1D21ECDD62000F0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1289B1E21ECDD62000F0027 /* Build configuration list for PBXNativeTarget "DeallocCallbackDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1289B1F21ECDD62000F0027 /* Debug */,
+				D1289B2021ECDD62000F0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1289B2121ECDD62000F0027 /* Build configuration list for PBXNativeTarget "DeallocCallbackDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1289B2221ECDD62000F0027 /* Debug */,
+				D1289B2321ECDD62000F0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1289AE721ECDD5F000F0027 /* Project object */;
+}
